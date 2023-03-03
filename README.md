@@ -5,14 +5,14 @@ This project was developed for a private company to assess their employees. Tech
 
 * User Panel
     * Login with Employee ID
-    * Submit 10 random MCQ questions (Timed)
-    * Submit 2 video questions (Timed)
+    * Answer 10 random MCQ questions (Timed)
+    * Answer 2 video questions (Timed)
     
 * Admin Panel
     * Login with Employee ID
     * Can add employees (CRUD Operation)
     * Give admin access to other employee
-    * Add MCQ Questions (CRUD Operation)
+    * Add MCQ and Video Questions (CRUD Operation)
     * Import questions with Excel sheet
     * View Results
     * Export results in Excel sheet
