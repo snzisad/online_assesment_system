@@ -21,14 +21,21 @@ This project was developed for a private company to assess their employees. Tech
 
 ## How to run
 
+Download and Install MySQL
+```bash
+https://www.mysql.com/downloads/
+```
+
 Download and Install Composer
 ```bash
 https://getcomposer.org/download/
 ```
 
-Download and Install Xampp for PHP, MySQL, and Apache server
+While installing the composer, select the project php file (from 'php' folder) in order to run the project.
+
+Install Laravel libraries
 ```bash
-https://www.apachefriends.org/
+composer install
 ```
 
 Copy ENV file
@@ -36,19 +43,12 @@ Copy ENV file
 cp .env.example .env
 ```
 
-Install Laravel libraries
-```bash
-composer install
-or
-php composer.phar install
-```
-
 Generate laravel api-key
 ```bash
 php artisan key:generate
 ```
 
-Update .env file with api-key and database information 
+Update .env file with database information 
 
 Migrate the schemas into database
 ```bash
