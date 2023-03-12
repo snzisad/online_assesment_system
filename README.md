@@ -55,7 +55,23 @@ Migrate the schemas into database
 php artisan migrate
 ```
 
+Seed the database to set default admin information
+```bash
+php artisan db:seed
+```
+
 Run project
 ```bash
 php artisan serve
+```
+
+Go to the following url to login as an admin
+```bash
+localhost:8000/admin/login
+```
+
+Use the following credentials
+```bash
+Employee ID: 1234
+Password: 112233
 ```

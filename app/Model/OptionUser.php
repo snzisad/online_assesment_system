@@ -8,7 +8,7 @@ class OptionUser extends Model
 
 {
 
-    protected $table = 'option_user';
+    protected $table = 'option_users';
     
     //
     protected $fillable = [
