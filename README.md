@@ -21,56 +21,50 @@ This project was developed for a private company to assess their employees. Tech
 
 ## How to run
 
-Download and Install MySQL
-```bash
-https://www.mysql.com/downloads/
-```
+* Download and Install MySQL from [here](https://www.mysql.com/downloads/)
 
-Download and Install Composer
-```bash
-https://getcomposer.org/download/
-```
+* Download and Install Composer from [here](https://getcomposer.org/download/)
 
-While installing the composer, select the project php file (from 'php' folder) in order to run the project.
+* While installing the composer, select the project php file (from 'php' folder) in order to run the project.
 
-Install Laravel libraries
+* Install Laravel libraries
 ```bash
 composer install
 ```
 
-Copy ENV file
+* Copy ENV file
 ```bash
 cp .env.example .env
 ```
 
-Generate laravel api-key
+* Generate laravel api-key
 ```bash
 php artisan key:generate
 ```
 
-Update .env file with database information 
+* Update .env file with database information 
 
-Migrate the schemas into database
+* Migrate the schemas into database
 ```bash
 php artisan migrate
 ```
 
-Seed the database to set default admin information
+* Seed the database to set default admin information
 ```bash
 php artisan db:seed
 ```
 
-Run project
+* Run project
 ```bash
 php artisan serve
 ```
 
-Go to the following url to login as an admin
+* Go to the following url to login as an admin
 ```bash
 localhost:8000/admin/login
 ```
 
-Use the following credentials
+* Use the following credentials
 ```bash
 Employee ID: 1234
 Password: 112233
